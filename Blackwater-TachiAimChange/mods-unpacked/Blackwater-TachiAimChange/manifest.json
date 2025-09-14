@@ -1,0 +1,35 @@
+{
+	"dependencies": [],
+	"description": "Adds a toggle to the Accessibility menu that un-inverts the Tachi saber stabbing.\nBy default, the inversion is DISABLED, meaning that the sabers do NOT stab in the opposite direction from where your cursor is pointing - in other words, the mod changes Tachi aim by default relative to Vanilla RAM.",
+	"extra": {
+		"godot": {
+			"authors": [
+				"AuthorName"
+			],
+			"compatible_game_version": [
+				"0.0.0"
+			],
+			"compatible_mod_loader_version": [
+				"7.0.0"
+			],
+			"config_schema": {
+
+			},
+			"description_rich": "",
+			"image": null,
+			"incompatibilities": [],
+			"load_before": [],
+			"optional_dependencies": [],
+			"tags": [
+				"QoL",
+				"Accessibility",
+				"Controller-friendly",
+				"Tachi"
+			]
+		}
+	},
+	"name": "TachiAimChange",
+	"namespace": "Blackwater",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/BlackwaterMenace/RAM-Blackwater-TachiAimChange"
+}
