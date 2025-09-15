@@ -1,7 +1,6 @@
 extends "res://Scripts/Menus/AccessibilityPanel.gd"
 
 func _ready():
-	super()
 	var tachi_aim_invert_toggle_button_parent = $CenterContainer/VBoxContainer
 	
 	var tachi_aim_invert_toggle_button := CheckBox.new()
@@ -11,6 +10,7 @@ func _ready():
 	tachi_aim_invert_toggle_button.toggled.connect(_on_tachi_aim_invert_toggled)
 	tachi_aim_invert_toggle_button_parent.add_child(tachi_aim_invert_toggle_button)
 	tachi_aim_invert_toggle_button_parent.move_child(tachi_aim_invert_toggle_button, -2)
+	super()
 
 func _on_tachi_aim_invert_toggled(state: bool):
 	SaveManager.tachi_aim_invert = state
